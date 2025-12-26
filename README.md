@@ -27,7 +27,7 @@ JavaScript (ES6) – Application logic, DOM manipulation, and localStorage
 
 ⚙️ How to Use
 1. Clone the repository
-git clone https://github.com/HamzaHassanMir/todo-list-app.git
+git clone [https://github.com/HamzaHassanMir/todo-list-app.git](https://github.com/HamzaHassanMir/Todo-App-Using-JS)
 
 2. Navigate to the project directory
 
