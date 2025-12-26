@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #833AB4;
+    background: linear-gradient(90deg,rgba(131, 58, 180, 1) 4%, rgba(253, 29, 29, 1) 47%, rgba(252, 176, 69, 1) 93%);
+    padding: 40px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Input & button */
+#todoInput {
+    padding: 8px;
+    width: 70%;
+    font-size: 16px;
+}
+
+#btn {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #020024;
+    color: white;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 9%, rgba(9, 9, 121, 1) 48%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 5px 2px 10px white;
+}
+
+/* Task list */
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Each task */
+#taskList li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 18px lightblue;
+}
+
+/* Task text */
+#taskList span {
+    flex: 1;
+    margin-left: 10px;
+}
+
+/* Delete button */
+#taskList button {
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 9%, rgba(9, 9, 121, 1) 48%, rgba(0, 212, 255, 1) 100%);
+}
