@@ -4,8 +4,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![LocalStorage](https://img.shields.io/badge/LocalStorage-000000?style=for-the-badge&logo=googlechrome&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge)
-
 
 A simple, responsive, and interactive Todo List application built using HTML, CSS, and JavaScript.
 This app helps users manage daily tasks efficiently with features like task completion, editing, deletion, and persistent storage using the browser’s localStorage.
