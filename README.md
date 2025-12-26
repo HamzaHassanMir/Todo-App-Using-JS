@@ -30,9 +30,10 @@ JavaScript (ES6) – Application logic, DOM manipulation, and localStorage
 git clone https://github.com/HamzaHassanMir/todo-list-app.git
 
 2. Navigate to the project directory
+
 cd todo-list-app
 
-3. Open index.html in your browser
+4. Open index.html in your browser
 You can simply double-click the file or open it using a live server.
 
 🧠 Code Overview
