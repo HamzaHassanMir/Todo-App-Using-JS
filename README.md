@@ -1,60 +1,72 @@
-TODO List App
-A responsive and interactive task management application built using HTML, CSS, and JavaScript. Organize your daily workflow with a clean interface and persistent data storage.
+ Todo List App
+ 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![LocalStorage](https://img.shields.io/badge/LocalStorage-000000?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge)
 
-Features
-Task Persistence: Automatically saves your tasks to localStorage so they remain available after refreshing the page.
 
-Interactive Checkbox: Mark tasks as completed with a checkbox, which triggers a visual update and a completion alert.
+A simple, responsive, and interactive Todo List application built using HTML, CSS, and JavaScript.
+This app helps users manage daily tasks efficiently with features like task completion, editing, deletion, and persistent storage using the browser’s localStorage.
 
-In-Place Editing: Double-click on any task text to quickly rename or update your items using a prompt.
+🚀 Features
 
-Keyboard Support: Add new tasks efficiently by pressing the Enter key.
+Add Tasks: Quickly add new tasks using the input field or press Enter.
+Mark as Completed: Mark tasks as completed using a checkbox.
+Edit Tasks: Double-click on any task to edit it.
+Delete Tasks: Remove tasks individually with a delete button.
+Persistent Storage: Tasks are saved in localStorage and remain available after page reload.
+Responsive UI: Clean and modern UI with gradient styling.
 
-Responsive Gradient UI: A modern design featuring dynamic linear gradients and a mobile-friendly layout.
+🛠️ Technologies Used
+HTML5 – Structure of the application
+CSS3 – Styling and layout (gradients, shadows, responsiveness)
+JavaScript (ES6) – Application logic, DOM manipulation, and localStorage
 
-How to Use
-Clone this repository:
+📸 Preview
+<img width="1920" height="970" alt="Todo App Preview" src="https://github.com/user-attachments/assets/e637c804-5cce-4dd9-86f0-7d524c497407" />
 
-Bash
+⚙️ How to Use
+1. Clone the repository
+git clone https://github.com/HamzaHassanMir/todo-list-app.git
 
-git clone <repository-url>
-Navigate to the project directory:
+2. Navigate to the project directory
+cd todo-list-app
 
-Bash
+3. Open index.html in your browser
+You can simply double-click the file or open it using a live server.
 
-cd <repository-name>
-Open the index.html file in your preferred web browser.
+🧠 Code Overview
+The main logic is implemented in script.js and includes:
+Key Concepts Used
+DOM Manipulation: Dynamically creating and updating task elements.
+Event Handling: Handling clicks, keyboard events, and checkbox changes.
+Local Storage: Saving and retrieving tasks to persist data.
+Array Operations: Managing tasks using JavaScript arrays.
 
-Manage your tasks: * Enter a task in the input field and click Add or press Enter.
+🔑 Key Functions
+1. addNewTasks()
+Adds a new task to the list and saves it to localStorage.
 
-Double-click a task's text to edit it.
+2. createItem(task, index)
+Dynamically creates a task item with checkbox, text, and delete button.
 
-Click the Delete button to remove a task from your list.
+3. display()
+Renders all tasks on the UI.
 
-Code Overview
-The application is implemented across three core files with the following responsibilities:
+5. savToLocal()
+Saves the tasks array to the browser’s localStorage
 
-HTML Structure (index.html): Defines the task input, add button, and the unordered list container for tasks.
+🤝 Contributing
+Contributions are welcome!
+> If you’d like to improve this project:
+> Fork the repository
+> Create a new branch
+> Make your changes
+> Submit a pull request
 
-Dynamic Styling (style.css): Handles the vibrant gradient background, button hover effects, and task list shadows.
-
-Logic Engine (script.js): Manages the application state, DOM creation, and localStorage synchronization.
-
-Key Functions
-createItem(task, index): Generates the DOM elements for a task, including the checkbox, text span, and delete button.
-
-savToLocal(): Synchronizes the current task array with the browser's local storage.
-
-display(): Clears the current list and re-renders all tasks from the data array to the UI.
-
-addNewTasks(): Validates user input and adds a new task object to the state.
-
-Setup
-Ensure all project files (index.html, style.css, script.js) are in the same directory.
-
-The index.html file is already configured to link the stylesheet and script correctly.
-
-No external API keys or dependencies are required, as the app uses vanilla JavaScript and browser APIs.
-
-Contributing
-Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request. Suggestions for features like task categories or drag-and-drop reordering are greatly appreciated.
+👨‍💻 Author
+Hamza
+Frontend Developer
+Feel free to connect and check out more projects!
